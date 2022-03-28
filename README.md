@@ -1,7 +1,7 @@
 # Stock_Prediction
 Stock Open-price prediction model
 
-This Jupyter notebook based HTML file contains a Python code, making use of Tensorflow Library to build a Bi-LSTM model which predicts the SBI stock open-price for any day provided the last 60-days stock open-price data. 
+The Jupyter notebook file (in the repo) containing a Python code, makes use of Tensorflow Library to build a Bi-LSTM model which predicts the SBI stock open-price for any day provided the last 60-days stock open-price data. 
 
 The code is pretty simple and self explanatory.
 
