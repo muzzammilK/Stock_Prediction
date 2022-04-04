@@ -1,7 +1,7 @@
 # Stock_Prediction
 Stock Open-price prediction model
 
-The Jupyter notebook file (in the repo) containing a Python code, makes use of Tensorflow Library to build a Bi-LSTM model which predicts the SBI stock open-price for any day provided the last 60-days stock open-price data. 
+The Jupyter notebook file (in the repo) containing a Python code, makes use of Tensorflow Library to build an LSTM model which predicts the SBI stock open-price for any day provided the last 60-days stock open-price data. 
 
 The code is pretty simple and self explanatory.
 
@@ -13,7 +13,7 @@ Description Points:
 3) Normalize the stock open-price data using MinMaxScaler class
 4) Create Train-data with the logic that any day's stock open-price depends on its previous 60 days stock open-price data
 5) Then re-shape the Train-data
-6) Create/Build a Bi-LSTM model
+6) Create/Build an LSTM model
 7) Train the model with the re-structured Train-data
 8) Obtain recent SBI stock data and keep them as Test-data
 9) Re-structure the Test-data with similar logic as Train-data. So, in that aspect, last 60 data points of Train-data is to be used. Hence, logically, 1st data point of Test-data will depend on its previous 60 data points obtained from Train-data and so on
